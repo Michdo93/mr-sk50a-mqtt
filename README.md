@@ -40,6 +40,8 @@ The ESP32 publishes the detected event via MQTT to openHAB.
 
 ![System overview](images/system-overview.png)
 
+![Overview](https://github.com/Michdo93/mr-sk50a-mqtt/blob/main/images/mr-sk50a-mqtt-overview.png?raw=true)
+
 ## Important: what detects the sound?
 
 The **MR-SK50A detects the sound**.
