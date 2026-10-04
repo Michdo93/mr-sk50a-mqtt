@@ -1,0 +1,26 @@
+#pragma once
+
+// Wi-Fi
+#define WIFI_SSID       "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD   "YOUR_WIFI_PASSWORD"
+
+// MQTT
+#define MQTT_HOST       "192.168.0.5"
+#define MQTT_PORT       1883
+#define MQTT_USER       ""
+#define MQTT_PASSWORD   ""
+
+// MQTT topics
+#define MQTT_EVENT_TOPIC  "mr-sk50a/event"
+#define MQTT_STATE_TOPIC  "mr-sk50a/state"
+#define MQTT_STATUS_TOPIC "mr-sk50a/status"
+
+// GPIO connected to the LOW-VOLTAGE output of the isolated AC detector.
+// NEVER connect the GPIO directly to mains.
+#define AC_DETECT_GPIO 27
+
+// Set to true if the detector output is LOW while AC is present.
+#define DETECTOR_ACTIVE_LOW true
+
+// Debounce time for the digital input.
+#define INPUT_DEBOUNCE_MS 100

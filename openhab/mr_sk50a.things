@@ -1,0 +1,18 @@
+Thing mqtt:topic:mr_sk50a "MR-SK50A Sound Sensor" {
+    Channels:
+        Type switch : state "Sound Sensor State" [
+            stateTopic="mr-sk50a/state",
+            on="ON",
+            off="OFF"
+        ]
+
+        Type switch : event "Sound Event" [
+            stateTopic="mr-sk50a/event",
+            on="ON",
+            off="OFF"
+        ]
+
+        Type string : status "ESP32 Status" [
+            stateTopic="mr-sk50a/status"
+        ]
+}

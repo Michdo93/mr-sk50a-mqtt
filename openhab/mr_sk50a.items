@@ -1,0 +1,11 @@
+Switch MR_SK50A_State "MR-SK50A State" {
+    channel="mqtt:topic:mr_sk50a:state"
+}
+
+Switch MR_SK50A_Event "MR-SK50A Sound Event" {
+    channel="mqtt:topic:mr_sk50a:event"
+}
+
+String MR_SK50A_ESP32_Status "ESP32 Status" {
+    channel="mqtt:topic:mr_sk50a:status"
+}
